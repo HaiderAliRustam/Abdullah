@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "C:\\Users\\2017c\\Documents\\Connection\\Cypress\\node_modules\\.bin\\cypress run"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,11 @@
   "devDependencies": {
     "cypress": "^4.5.0",
     "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
     "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3"
   }
 }
